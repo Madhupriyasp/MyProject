@@ -205,7 +205,7 @@ $(document).ready(function() {
 					<br>
 			<p>
 				<label>&nbsp;</label>
-			<div class="bfooter">
+			<div class="footer">
 			
 						<input type="submit" class=" btn-info btn-lg " name="submit" id="submit"
 							tabindex="14" value="Sign me up!"style="padding:2px">
