@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin{
+/*  	background: #f1f1f1;
+ */	width: 300px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-top: 5px;
+/* 	border: 1px solid #d66;
+ */ 	border-radius:8px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+  font-size: 16px; 
+  	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+	font-family: Arial, Helvetica;
+	padding: 10px;
+	height: auto;
+  	width:250px;
+}
+.form-signin .form-control  {  
+	font-size: 16px; 
+  	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+	font-family: Arial, Helvetica;
+	padding: 10px;
+	height: auto;
+  	width:250px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  border-radius: 8px;
+  margin:auto;
+}
+.form-signin input[type="password"] {
+   border-radius: 8px;
+  margin:auto;
+   bottom:-20px;
+  
+}
+.login-btn{
+	font-size: 16px; 
+  	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+	font-family: Arial, Helvetica;
+	padding: 10px;
+	height: auto;
+  	width:280px;
+  	background: #4b8df9;
+  	color:#fbf7f7;
+  	font-family: Verdana, Geneva, sans-serif;
+  	font-size: 14px;
+}
+.form-signin .login-btn:hover {
+	background-color: #2a78f6;
+}
+
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('error.png');
+}

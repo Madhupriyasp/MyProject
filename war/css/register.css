@@ -1,0 +1,235 @@
+@CHARSET "ISO-8859-1";
+/* CSS reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, textarea, p, blockquote, th, td {
+	margin: 2px;
+	padding: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+header {
+	display: block;
+}
+body {
+	font-family:Cambria, Georgia, serif;
+/* 	background: url(images/bgnoise_lg.png);
+ */	font-weight: 400;
+	font-size: 15px;
+	color: #3a2127;
+	overflow: scroll;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#errorBox{
+ color:#F00;
+ }
+
+.container>header {
+	padding: 20px 30px 20px 30px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.container>header h3 {
+	position: relative;
+	color: #498ea5;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	padding: 0px 0px 5px 0px;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.container>header h1 span {
+	font-family: 'Alegreya SC', Georgia, serif;
+	font-size: 20px;
+	line-height: 20px;
+	display: block;
+	font-weight: 400;
+	font-style: italic;
+	color: #719dab;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container>header h2 {
+	font-size: 16px;
+	font-style: italic;
+	color: #2d6277;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+
+/* Header Style */
+.menu-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: rgba(0, 0, 0, 0.05);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.menu-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+
+.menu-top a:hover {
+	background: #fff;
+}
+
+.menu-top span.right {
+	float: right;
+}
+
+.menu-top span.right a {
+	float: left;
+	display: block;
+}
+
+
+
+
+.form {
+	background: white;
+	width: 470px;
+	margin: 0 auto;
+
+}
+
+.form fieldset {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.form p.userInput {
+	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+	font-family: Arial, Helvetica;
+}
+
+.form input[type="text"] {
+	width: 400px;
+}
+
+.form input[type="email"] {
+	width: 400px;
+}
+
+.form input[type="password"] {
+	width: 400px;
+}
+
+.form input.birthday {
+	width: 60px;
+}
+
+.form input.birthyear {
+	width: 120px;
+}
+
+.form label {
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Helvetica;
+}
+
+.form label.month {
+	width: 135px;
+}
+
+.form input, textarea {
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid rgba(122, 192, 0, 0.15);
+	padding: 7px;
+	font-family: Keffeesatz, Arial;
+	color: #4b4b4b;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 15px;
+	margin-top: -10px;
+}
+
+.form input:focus, textarea:focus {
+	border: 1px solid #ff5400;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.form .select-style {
+	-webkit-appearance: button;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-padding-end: 20px;
+	-webkit-padding-start: 2px;
+	-webkit-user-select: none;
+	background-image: url(././images/select-arrow.png),
+		-webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: 0px solid #FFF;
+	color: #555;
+	font-size: inherit;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.form .gender {
+	width: 410px;
+}
+
+.form .role{
+	width: 410px;
+}
+
+.form input.button {
+	background: #4b8df9;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fbf7f7;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 1px #222;
+	border: none;
+	position: relative;
+	bottom:-20px;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	right:-150px;
+}
+
+.form input.button:hover {
+	background-color: #2a78f6;
+}

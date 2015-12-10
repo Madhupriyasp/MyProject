@@ -1,0 +1,130 @@
+/* ------ general
+-----------------------------------------------*/
+
+
+.wrapper {
+margin:200px auto 0;
+width:600px;
+}
+.regform
+{
+	border:2px solid #e1e0df;
+	top:-0px;
+	width:550px;
+}
+
+.regform p {
+margin-bottom:25px;
+position:relative;
+}
+.jumbotron {
+    position: relative;
+    background: #000 url("../kcgimages/createlogo.png") center center;
+    width: 100%;
+    height:234px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h4{
+color:blue;
+}
+h5
+{
+color:white;
+}
+
+.text {
+padding:5px 10px;
+width:220px;
+height:27px;
+border:1px solid #ddd;
+position:relative;
+z-index:2;
+}
+
+.gender,.role
+{
+left:40px;	
+width:300px;
+}
+
+.child_text
+{
+padding:5px 10px;
+width:150px;
+height:27px;
+border:1px solid #ddd;
+color:#333;
+background:url(../gfx/bginput.jpg) repeat-x bottom #fff;
+position:relative;
+z-index:2;
+left:40px
+}
+
+
+
+.regform label {
+float:left;
+width:100px;
+line-height:37px;
+text-align:right;
+margin-right:15px;
+font-weight:bold;
+color:#666;
+}
+
+.regform label.error,
+.regform label.ok {
+position:absolute;
+z-index:1;
+top:-4px;
+left:110px;
+padding:5px 15px 5px 280px;
+/*reset label*/
+width:auto;
+text-align:left;
+margin:0;
+background-repeat:no-repeat;
+background-position:257px 16px;
+}
+
+.regform label.ok {
+background-image:url(../gfx/icook.gif);
+background-color:#deefca;
+color:#577530;
+}
+
+.regform label.error {
+background-image:url(../gfx/icofail.gif);
+background-color:#f5d6d7;
+color:#c81925;
+}
+
+
+.bfooter
+{
+	position:absolute;
+	bottom:0px;
+	left:120px;
+}
+.btn,
+.text,
+.child_text,
+.textarea,
+.regform label.error,
+.regform label.ok { 
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+}
+
+a {
+color: #CCCCCC;
+}
+
+a img {
+border:none;
+}
+
+
